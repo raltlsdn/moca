@@ -26,7 +26,7 @@ public class LogAOPAdvice {
 		try {
 			o = pjp.proceed();
 		} catch (Throwable e) {
-			e.printStackTrace()
+			e.printStackTrace();
 		}
 
 		if (o != null) {
